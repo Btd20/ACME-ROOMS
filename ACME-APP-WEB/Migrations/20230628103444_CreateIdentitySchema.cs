@@ -11,7 +11,7 @@ namespace ACME_APP_WEB.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
                 {
@@ -24,6 +24,7 @@ namespace ACME_APP_WEB.Migrations
                 {
                     table.PrimaryKey("PK_AspNetRoles", x => x.Id);
                 });
+           
 
             migrationBuilder.CreateTable(
                 name: "AspNetUsers",
@@ -218,7 +219,8 @@ namespace ACME_APP_WEB.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
-        }
-    }
+                name: "AspNetUsers"); 
+        } 
+    } 
+
 }

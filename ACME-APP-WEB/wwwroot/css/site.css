@@ -10,6 +10,7 @@
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
     @media (min-width: 768px) {
       html {
@@ -27,7 +28,7 @@
     }
 
     :root {
-        --bs-body-bg: #F2F4FB;
+        --bs-body-bg: #F4F4FB;
     }
 
     body {

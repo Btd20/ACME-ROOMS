@@ -1,0 +1,37 @@
+﻿    .nav-title {
+        font-family: BlenderProBook;
+        text-transform: uppercase;
+        color: #ff2a6d;
+        font-weight: 400;
+    }
+
+    .nav-title a:hover {
+        color: #FDF500!important;
+    }
+
+    .nav-txt-collapse {
+        font-size: 0.66em;
+        color: #05d9e8;
+        font-family: 'Inconsolata', monospace;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        transition: 0.2s ease-in all;
+        line-height: 120%;
+    }
+
+    .nav-txt-collapse:hover {
+        letter-spacing: 0.08em;
+        color: #ff2a6d;
+    }
+
+    .nav-importantTxt {
+        font-family: BlenderProBook;
+        text-transform: uppercase;
+        color: #FDF500;
+        font-weight: 400;
+    }
+
+    .nav-importantTxt:hover {
+        color: #ff2a6d !important;
+    }

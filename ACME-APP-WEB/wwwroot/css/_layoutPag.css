@@ -1,0 +1,11 @@
+﻿.provanav-laia {
+    background-color: #051C30;
+    border-bottom: 3px solid #ff2a6d;
+}
+
+.nav-txt-collapse {
+    font-size: 0.60em;
+    color: #05d9e8 !important;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+}

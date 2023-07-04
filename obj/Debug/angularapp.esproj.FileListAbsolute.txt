@@ -1,0 +1,2 @@
+C:\Users\yeray.lorenzo\source\repos\ACME_ROOM\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\yeray.lorenzo\source\repos\ACME_ROOM\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache

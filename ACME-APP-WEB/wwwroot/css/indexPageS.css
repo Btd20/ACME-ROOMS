@@ -55,19 +55,22 @@
 
     .container-profile {
         height: 25em;
-        background-color:wheat;
-        border-radius:2rem;
+        background-color: #F2F4FB;
+        border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     }
+
+    /*--PROFILE--*/ 
 
     .prf-img{
         padding-right:5rem;
-        backdrop-filter:blur(50px);
     }
 
-    .prf-img-cnt{
-        background-color:red;
-        width:100%;
-        height:100%;
+    .prf-img-cnt {
+        width: 100%;
+        height: 100%;
+        color: #1A1A41;
+        font-weight:900;
     }
 
     .prf-info {

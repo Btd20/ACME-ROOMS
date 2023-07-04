@@ -1,8 +1,9 @@
-﻿    .nav-title {
-        font-family: BlenderProBook;
-        text-transform: uppercase;
-        color: #ff2a6d;
-        font-weight: 400;
+﻿@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+    .nav-title {
+        color: #1A1A41;
     }
 
     .nav-title a:hover {
@@ -10,11 +11,11 @@
     }
 
     .nav-txt-collapse {
-        font-size: 0.66em;
-        color: #05d9e8;
-        font-family: 'Inconsolata', monospace;
+        font-size: 0.86em;
+        color: #84849C;
+        font-family: 'Work Sans', sans-serif;
         text-transform: uppercase;
-        font-weight: 900;
+        font-weight: 700;
         letter-spacing: 0.05em;
         transition: 0.2s ease-in all;
         line-height: 120%;
@@ -22,16 +23,25 @@
 
     .nav-txt-collapse:hover {
         letter-spacing: 0.08em;
-        color: #ff2a6d;
+        color: #1A1A41;
     }
 
     .nav-importantTxt {
-        font-family: BlenderProBook;
+        font-family: 'Work Sans', sans-serif;
         text-transform: uppercase;
-        color: #FDF500;
+        color: #F4F4FB;
         font-weight: 400;
+        background-color: #1A1A41;
+        border-radius:0.7rem;
     }
 
     .nav-importantTxt:hover {
-        color: #ff2a6d !important;
+        color: #1A1A41 !important;
+        background-color: #F4F4FB;
+    }
+
+    .foot-txt {
+        font-family: 'Work Sans', sans-serif;
+        color: #1A1A41;
+        font-weight: 800;
     }

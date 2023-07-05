@@ -21,6 +21,22 @@
         line-height: 120%;
     }
 
+    .nav-txt-coll2 {
+        font-size: 0.86em;
+        color: #1A1A41;
+        font-family: 'Work Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        transition: 0.2s ease-in all;
+        line-height: 120%;
+    }
+
+    .nav-txt-coll2:hover {
+         color: #84849C;
+         letter-spacing: 0.08em;
+    }
+
     .nav-txt-collapse:hover {
         letter-spacing: 0.08em;
         color: #1A1A41;
